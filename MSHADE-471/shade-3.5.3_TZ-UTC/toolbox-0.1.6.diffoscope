@@ -1,0 +1,307 @@
+1 / 3 target/reference/eu.maveniverse.maven.plugins/toolbox-0.1.6.pom toolbox/pom.xml
+--- target/reference/eu.maveniverse.maven.plugins/toolbox-0.1.6.pom
++++ toolbox/pom.xml
+│   --- target/reference/eu.maveniverse.maven.plugins/toolbox-0.1.6.pom
+├── +++ toolbox/pom.xml
+│ @@ -203,14 +203,15 @@
+│              </configuration>
+│            </execution>
+│          </executions>
+│        </plugin>
+│        <plugin>
+│          <groupId>org.apache.maven.plugins</groupId>
+│          <artifactId>maven-shade-plugin</artifactId>
+│ +        <version>3.5.3-SNAPSHOT</version>
+│          <executions>
+│            <execution>
+│              <id>cli</id>
+│              <goals>
+│                <goal>shade</goal>
+│              </goals>
+│              <phase>package</phase>
+
+2 / 3 target/reference/eu.maveniverse.maven.plugins/toolbox-0.1.6.jar toolbox/target/toolbox-0.1.6.jar
+--- target/reference/eu.maveniverse.maven.plugins/toolbox-0.1.6.jar
++++ toolbox/target/toolbox-0.1.6.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 80449 bytes, number of entries: 67
+│ +Zip file size: 80470 bytes, number of entries: 67
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 14:49 META-INF/
+│  -rw-r--r--  2.0 unx      340 b- defN 24-Apr-17 14:49 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 14:49 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 14:49 META-INF/maven/eu.maveniverse.maven.plugins/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 14:49 META-INF/maven/eu.maveniverse.maven.plugins/toolbox/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 14:49 META-INF/native-image/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 14:49 META-INF/native-image/picocli-generated/
+│ @@ -60,10 +60,10 @@
+│  -rw-r--r--  2.0 unx     2021 b- defN 24-Apr-17 14:49 eu/maveniverse/maven/toolbox/plugin/mp/PluginResolveMojo.class
+│  -rw-r--r--  2.0 unx     2224 b- defN 24-Apr-17 14:49 eu/maveniverse/maven/toolbox/plugin/mp/PluginResolveTransitiveMojo.class
+│  -rw-r--r--  2.0 unx     1691 b- defN 24-Apr-17 14:49 eu/maveniverse/maven/toolbox/plugin/mp/PluginTreeMojo.class
+│  -rw-r--r--  2.0 unx     3195 b- defN 24-Apr-17 14:49 eu/maveniverse/maven/toolbox/plugin/mp/ResolveMojo.class
+│  -rw-r--r--  2.0 unx     4378 b- defN 24-Apr-17 14:49 eu/maveniverse/maven/toolbox/plugin/mp/ResolveTransitiveMojo.class
+│  -rw-r--r--  2.0 unx     1592 b- defN 24-Apr-17 14:49 eu/maveniverse/maven/toolbox/plugin/mp/TreeMojo.class
+│  -rw-r--r--  2.0 unx      642 b- defN 24-Apr-17 14:49 simplelogger.properties
+│ --rw-r--r--  2.0 unx     9539 b- defN 24-Apr-17 14:49 META-INF/maven/eu.maveniverse.maven.plugins/toolbox/pom.xml
+│ +-rw-r--r--  2.0 unx     9581 b- defN 24-Apr-17 14:49 META-INF/maven/eu.maveniverse.maven.plugins/toolbox/pom.xml
+│  -rw-r--r--  2.0 unx       70 b- defN 24-Apr-17 14:49 META-INF/maven/eu.maveniverse.maven.plugins/toolbox/pom.properties
+│ -67 files, 332216 bytes uncompressed, 68153 bytes compressed:  79.5%
+│ +67 files, 332258 bytes uncompressed, 68174 bytes compressed:  79.5%
+├── META-INF/maven/eu.maveniverse.maven.plugins/toolbox/pom.xml
+│ ├── META-INF/maven/eu.maveniverse.maven.plugins/toolbox/pom.xml
+│ │ @@ -203,14 +203,15 @@
+│ │              </configuration>
+│ │            </execution>
+│ │          </executions>
+│ │        </plugin>
+│ │        <plugin>
+│ │          <groupId>org.apache.maven.plugins</groupId>
+│ │          <artifactId>maven-shade-plugin</artifactId>
+│ │ +        <version>3.5.3-SNAPSHOT</version>
+│ │          <executions>
+│ │            <execution>
+│ │              <id>cli</id>
+│ │              <goals>
+│ │                <goal>shade</goal>
+│ │              </goals>
+│ │              <phase>package</phase>
+
+3 / 3 target/reference/eu.maveniverse.maven.plugins/toolbox-0.1.6-cli.jar toolbox/target/toolbox-0.1.6-cli.jar
+--- target/reference/eu.maveniverse.maven.plugins/toolbox-0.1.6-cli.jar
++++ toolbox/target/toolbox-0.1.6-cli.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 5984264 bytes, number of entries: 3887
+│ +Zip file size: 5984285 bytes, number of entries: 3887
+│  -rw----     2.0 fat      393 bX defN 24-Apr-17 14:49 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 24-Apr-17 14:49 META-INF/
+│  -rw----     2.0 fat        0 bl defN 24-Apr-17 14:49 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 24-Apr-17 14:49 META-INF/maven/eu.maveniverse.maven.plugins/
+│  -rw----     2.0 fat        0 bl defN 24-Apr-17 14:49 META-INF/maven/eu.maveniverse.maven.plugins/toolbox/
+│  -rw----     2.0 fat    81226 bl defN 24-Apr-17 14:49 META-INF/maven/eu.maveniverse.maven.plugins/toolbox/plugin-help.xml
+│  -rw----     2.0 fat   103501 bl defN 24-Apr-17 14:49 META-INF/maven/plugin.xml
+│ @@ -41,15 +41,15 @@
+│  -rw----     2.0 fat     7985 bl defN 24-Apr-17 14:49 eu/maveniverse/maven/toolbox/plugin/gav/GavReplMojo.class
+│  -rw----     2.0 fat     3781 bl defN 24-Apr-17 14:49 eu/maveniverse/maven/toolbox/plugin/gav/GavResolveMojo.class
+│  -rw----     2.0 fat     3330 bl defN 24-Apr-17 14:49 eu/maveniverse/maven/toolbox/plugin/gav/GavResolveTransitiveMojo.class
+│  -rw----     2.0 fat     1814 bl defN 24-Apr-17 14:49 eu/maveniverse/maven/toolbox/plugin/gav/GavSearchMojo.class
+│  -rw----     2.0 fat     2522 bl defN 24-Apr-17 14:49 eu/maveniverse/maven/toolbox/plugin/gav/GavTreeMojo.class
+│  -rw----     2.0 fat     1972 bl defN 24-Apr-17 14:49 eu/maveniverse/maven/toolbox/plugin/gav/GavVerifyMojo.class
+│  -rw----     2.0 fat      642 bl defN 24-Apr-17 14:49 simplelogger.properties
+│ --rw----     2.0 fat     9539 bl defN 24-Apr-17 14:49 META-INF/maven/eu.maveniverse.maven.plugins/toolbox/pom.xml
+│ +-rw----     2.0 fat     9581 bl defN 24-Apr-17 14:49 META-INF/maven/eu.maveniverse.maven.plugins/toolbox/pom.xml
+│  -rw----     2.0 fat       70 bl defN 24-Apr-17 14:49 META-INF/maven/eu.maveniverse.maven.plugins/toolbox/pom.properties
+│  -rw----     2.0 fat        0 bl defN 23-Aug-26 22:01 picocli/
+│  -rw----     2.0 fat     1919 bl defN 23-Aug-26 22:01 picocli/CommandLine$1.class
+│  -rw----     2.0 fat      942 bl defN 23-Aug-26 22:01 picocli/CommandLine$2.class
+│  -rw----     2.0 fat     1020 bl defN 23-Aug-26 22:01 picocli/CommandLine$3.class
+│  -rw----     2.0 fat      851 bl defN 23-Aug-26 22:01 picocli/CommandLine$4.class
+│  -rw----     2.0 fat     1704 bl defN 23-Aug-26 22:01 picocli/CommandLine$AbbreviationMatcher$MatchResult.class
+│ @@ -735,96 +735,96 @@
+│  -rw----     2.0 fat     1300 bl defN 24-Jan-23 12:20 org/jline/widget/TailTipWidgets$TipType.class
+│  -rw----     2.0 fat    21618 bl defN 24-Jan-23 12:20 org/jline/widget/TailTipWidgets.class
+│  -rw----     2.0 fat     1004 bl defN 24-Jan-23 12:20 org/jline/widget/Widgets$1.class
+│  -rw----     2.0 fat     7539 bl defN 24-Jan-23 12:20 org/jline/widget/Widgets.class
+│  -rw----     2.0 fat        0 bl defN 24-Jan-23 12:20 META-INF/maven/org.jline/jline/
+│  -rw----     2.0 fat    22989 bl defN 24-Jan-23 12:20 META-INF/maven/org.jline/jline/pom.xml
+│  -rw----     2.0 fat       50 bl defN 24-Jan-23 12:20 META-INF/maven/org.jline/jline/pom.properties
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 META-INF/native-image/jansi/
+│ --rw----     2.0 fat    12491 bl defN 23-Oct-12 07:38 META-INF/native-image/jansi/jni-config.json
+│ --rw----     2.0 fat      192 bl defN 23-Oct-12 07:38 META-INF/native-image/jansi/resource-config.json
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 org/fusesource/
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 org/fusesource/jansi/
+│ --rw----     2.0 fat     1351 bl defN 23-Oct-12 07:38 org/fusesource/jansi/AnsiColors.class
+│ --rw----     2.0 fat     1135 bl defN 23-Oct-12 07:38 org/fusesource/jansi/AnsiConsole$1.class
+│ --rw----     2.0 fat     1061 bl defN 23-Oct-12 07:38 org/fusesource/jansi/AnsiConsole$2.class
+│ --rw----     2.0 fat    12373 bl defN 23-Oct-12 07:38 org/fusesource/jansi/AnsiConsole.class
+│ --rw----     2.0 fat     1429 bl defN 23-Oct-12 07:38 org/fusesource/jansi/AnsiMode.class
+│ --rw----     2.0 fat     2667 bl defN 23-Oct-12 07:38 org/fusesource/jansi/AnsiPrintStream.class
+│ --rw----     2.0 fat     1640 bl defN 23-Oct-12 07:38 org/fusesource/jansi/AnsiType.class
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/
+│ --rw----     2.0 fat      753 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/CLibrary$Termios.class
+│ --rw----     2.0 fat      806 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/CLibrary$WinSize.class
+│ --rw----     2.0 fat     1448 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/CLibrary.class
+│ --rw----     2.0 fat     1043 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/JansiLoader$1.class
+│ --rw----     2.0 fat    10987 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/JansiLoader.class
+│ --rw----     2.0 fat      654 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/Kernel32$CHAR_INFO.class
+│ --rw----     2.0 fat     1329 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/Kernel32$CONSOLE_SCREEN_BUFFER_INFO.class
+│ --rw----     2.0 fat      811 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/Kernel32$COORD.class
+│ --rw----     2.0 fat      653 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/Kernel32$FOCUS_EVENT_RECORD.class
+│ --rw----     2.0 fat     1880 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/Kernel32$INPUT_RECORD.class
+│ --rw----     2.0 fat     1575 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/Kernel32$KEY_EVENT_RECORD.class
+│ --rw----     2.0 fat      647 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/Kernel32$MENU_EVENT_RECORD.class
+│ --rw----     2.0 fat     1916 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/Kernel32$MOUSE_EVENT_RECORD.class
+│ --rw----     2.0 fat     1070 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/Kernel32$SMALL_RECT.class
+│ --rw----     2.0 fat     1176 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/Kernel32$WINDOW_BUFFER_SIZE_RECORD.class
+│ --rw----     2.0 fat     5741 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/Kernel32.class
+│ --rw----     2.0 fat     5617 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/MingwSupport.class
+│ --rw----     2.0 fat     5700 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/OSInfo.class
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/FreeBSD/
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/FreeBSD/x86/
+│ --rw----     2.0 fat    10196 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/FreeBSD/x86/libjansi.so
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/FreeBSD/x86_64/
+│ --rw----     2.0 fat    13228 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/FreeBSD/x86_64/libjansi.so
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Linux/
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Linux/arm/
+│ --rw----     2.0 fat    22032 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Linux/arm/libjansi.so
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Linux/arm64/
+│ --rw----     2.0 fat    19544 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Linux/arm64/libjansi.so
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Linux/armv6/
+│ --rw----     2.0 fat    15088 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Linux/armv6/libjansi.so
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Linux/armv7/
+│ --rw----     2.0 fat    14424 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Linux/armv7/libjansi.so
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Linux/ppc64/
+│ --rw----     2.0 fat    73208 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Linux/ppc64/libjansi.so
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Linux/x86/
+│ --rw----     2.0 fat    17376 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Linux/x86/libjansi.so
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Linux/x86_64/
+│ --rw----     2.0 fat    18952 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Linux/x86_64/libjansi.so
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Mac/
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Mac/arm64/
+│ --rw----     2.0 fat    53036 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Mac/arm64/libjansi.jnilib
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Mac/x86/
+│ --rw----     2.0 fat    14748 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Mac/x86/libjansi.jnilib
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Mac/x86_64/
+│ --rw----     2.0 fat    15612 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Mac/x86_64/libjansi.jnilib
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Windows/
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Windows/arm64/
+│ --rw----     2.0 fat    82432 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Windows/arm64/libjansi.so
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Windows/x86/
+│ --rw----     2.0 fat   115972 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Windows/x86/jansi.dll
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Windows/x86_64/
+│ --rw----     2.0 fat   130522 bl defN 23-Oct-12 07:38 org/fusesource/jansi/internal/native/Windows/x86_64/jansi.dll
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 org/fusesource/jansi/io/
+│ --rw----     2.0 fat      380 bl defN 23-Oct-12 07:38 org/fusesource/jansi/io/AnsiOutputStream$IoRunnable.class
+│ --rw----     2.0 fat      351 bl defN 23-Oct-12 07:38 org/fusesource/jansi/io/AnsiOutputStream$WidthSupplier.class
+│ --rw----     2.0 fat      623 bl defN 23-Oct-12 07:38 org/fusesource/jansi/io/AnsiOutputStream$ZeroWidthSupplier.class
+│ --rw----     2.0 fat     7728 bl defN 23-Oct-12 07:38 org/fusesource/jansi/io/AnsiOutputStream.class
+│ --rw----     2.0 fat     9872 bl defN 23-Oct-12 07:38 org/fusesource/jansi/io/AnsiProcessor.class
+│ --rw----     2.0 fat     5708 bl defN 23-Oct-12 07:38 org/fusesource/jansi/io/Colors.class
+│ --rw----     2.0 fat     3782 bl defN 23-Oct-12 07:38 org/fusesource/jansi/io/ColorsAnsiProcessor.class
+│ --rw----     2.0 fat     1312 bl defN 23-Oct-12 07:38 org/fusesource/jansi/io/FastBufferedOutputStream.class
+│ --rw----     2.0 fat    11047 bl defN 23-Oct-12 07:38 org/fusesource/jansi/io/WindowsAnsiProcessor.class
+│ --rw----     2.0 fat       14 bl defN 23-Oct-12 07:38 org/fusesource/jansi/jansi.properties
+│ --rw----     2.0 fat      925 bl defN 23-Oct-12 07:38 org/fusesource/jansi/jansi.txt
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 META-INF/maven/org.fusesource.jansi/
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 META-INF/maven/org.fusesource.jansi/jansi/
+│ --rw----     2.0 fat    17329 bl defN 23-Oct-12 07:38 META-INF/maven/org.fusesource.jansi/jansi/pom.xml
+│ --rw----     2.0 fat       60 bl defN 23-Oct-12 07:38 META-INF/maven/org.fusesource.jansi/jansi/pom.properties
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 META-INF/native-image/jansi/
+│ +-rw----     2.0 fat    12491 bl defN 23-Oct-12 06:38 META-INF/native-image/jansi/jni-config.json
+│ +-rw----     2.0 fat      192 bl defN 23-Oct-12 06:38 META-INF/native-image/jansi/resource-config.json
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 org/fusesource/
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 org/fusesource/jansi/
+│ +-rw----     2.0 fat     1351 bl defN 23-Oct-12 06:38 org/fusesource/jansi/AnsiColors.class
+│ +-rw----     2.0 fat     1135 bl defN 23-Oct-12 06:38 org/fusesource/jansi/AnsiConsole$1.class
+│ +-rw----     2.0 fat     1061 bl defN 23-Oct-12 06:38 org/fusesource/jansi/AnsiConsole$2.class
+│ +-rw----     2.0 fat    12373 bl defN 23-Oct-12 06:38 org/fusesource/jansi/AnsiConsole.class
+│ +-rw----     2.0 fat     1429 bl defN 23-Oct-12 06:38 org/fusesource/jansi/AnsiMode.class
+│ +-rw----     2.0 fat     2667 bl defN 23-Oct-12 06:38 org/fusesource/jansi/AnsiPrintStream.class
+│ +-rw----     2.0 fat     1640 bl defN 23-Oct-12 06:38 org/fusesource/jansi/AnsiType.class
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/
+│ +-rw----     2.0 fat      753 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/CLibrary$Termios.class
+│ +-rw----     2.0 fat      806 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/CLibrary$WinSize.class
+│ +-rw----     2.0 fat     1448 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/CLibrary.class
+│ +-rw----     2.0 fat     1043 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/JansiLoader$1.class
+│ +-rw----     2.0 fat    10987 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/JansiLoader.class
+│ +-rw----     2.0 fat      654 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/Kernel32$CHAR_INFO.class
+│ +-rw----     2.0 fat     1329 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/Kernel32$CONSOLE_SCREEN_BUFFER_INFO.class
+│ +-rw----     2.0 fat      811 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/Kernel32$COORD.class
+│ +-rw----     2.0 fat      653 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/Kernel32$FOCUS_EVENT_RECORD.class
+│ +-rw----     2.0 fat     1880 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/Kernel32$INPUT_RECORD.class
+│ +-rw----     2.0 fat     1575 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/Kernel32$KEY_EVENT_RECORD.class
+│ +-rw----     2.0 fat      647 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/Kernel32$MENU_EVENT_RECORD.class
+│ +-rw----     2.0 fat     1916 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/Kernel32$MOUSE_EVENT_RECORD.class
+│ +-rw----     2.0 fat     1070 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/Kernel32$SMALL_RECT.class
+│ +-rw----     2.0 fat     1176 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/Kernel32$WINDOW_BUFFER_SIZE_RECORD.class
+│ +-rw----     2.0 fat     5741 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/Kernel32.class
+│ +-rw----     2.0 fat     5617 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/MingwSupport.class
+│ +-rw----     2.0 fat     5700 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/OSInfo.class
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/FreeBSD/
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/FreeBSD/x86/
+│ +-rw----     2.0 fat    10196 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/FreeBSD/x86/libjansi.so
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/FreeBSD/x86_64/
+│ +-rw----     2.0 fat    13228 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/FreeBSD/x86_64/libjansi.so
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Linux/
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Linux/arm/
+│ +-rw----     2.0 fat    22032 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Linux/arm/libjansi.so
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Linux/arm64/
+│ +-rw----     2.0 fat    19544 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Linux/arm64/libjansi.so
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Linux/armv6/
+│ +-rw----     2.0 fat    15088 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Linux/armv6/libjansi.so
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Linux/armv7/
+│ +-rw----     2.0 fat    14424 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Linux/armv7/libjansi.so
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Linux/ppc64/
+│ +-rw----     2.0 fat    73208 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Linux/ppc64/libjansi.so
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Linux/x86/
+│ +-rw----     2.0 fat    17376 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Linux/x86/libjansi.so
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Linux/x86_64/
+│ +-rw----     2.0 fat    18952 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Linux/x86_64/libjansi.so
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Mac/
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Mac/arm64/
+│ +-rw----     2.0 fat    53036 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Mac/arm64/libjansi.jnilib
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Mac/x86/
+│ +-rw----     2.0 fat    14748 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Mac/x86/libjansi.jnilib
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Mac/x86_64/
+│ +-rw----     2.0 fat    15612 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Mac/x86_64/libjansi.jnilib
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Windows/
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Windows/arm64/
+│ +-rw----     2.0 fat    82432 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Windows/arm64/libjansi.so
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Windows/x86/
+│ +-rw----     2.0 fat   115972 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Windows/x86/jansi.dll
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Windows/x86_64/
+│ +-rw----     2.0 fat   130522 bl defN 23-Oct-12 06:38 org/fusesource/jansi/internal/native/Windows/x86_64/jansi.dll
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 org/fusesource/jansi/io/
+│ +-rw----     2.0 fat      380 bl defN 23-Oct-12 06:38 org/fusesource/jansi/io/AnsiOutputStream$IoRunnable.class
+│ +-rw----     2.0 fat      351 bl defN 23-Oct-12 06:38 org/fusesource/jansi/io/AnsiOutputStream$WidthSupplier.class
+│ +-rw----     2.0 fat      623 bl defN 23-Oct-12 06:38 org/fusesource/jansi/io/AnsiOutputStream$ZeroWidthSupplier.class
+│ +-rw----     2.0 fat     7728 bl defN 23-Oct-12 06:38 org/fusesource/jansi/io/AnsiOutputStream.class
+│ +-rw----     2.0 fat     9872 bl defN 23-Oct-12 06:38 org/fusesource/jansi/io/AnsiProcessor.class
+│ +-rw----     2.0 fat     5708 bl defN 23-Oct-12 06:38 org/fusesource/jansi/io/Colors.class
+│ +-rw----     2.0 fat     3782 bl defN 23-Oct-12 06:38 org/fusesource/jansi/io/ColorsAnsiProcessor.class
+│ +-rw----     2.0 fat     1312 bl defN 23-Oct-12 06:38 org/fusesource/jansi/io/FastBufferedOutputStream.class
+│ +-rw----     2.0 fat    11047 bl defN 23-Oct-12 06:38 org/fusesource/jansi/io/WindowsAnsiProcessor.class
+│ +-rw----     2.0 fat       14 bl defN 23-Oct-12 06:38 org/fusesource/jansi/jansi.properties
+│ +-rw----     2.0 fat      925 bl defN 23-Oct-12 06:38 org/fusesource/jansi/jansi.txt
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 META-INF/maven/org.fusesource.jansi/
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 META-INF/maven/org.fusesource.jansi/jansi/
+│ +-rw----     2.0 fat    17329 bl defN 23-Oct-12 06:38 META-INF/maven/org.fusesource.jansi/jansi/pom.xml
+│ +-rw----     2.0 fat       60 bl defN 23-Oct-12 06:38 META-INF/maven/org.fusesource.jansi/jansi/pom.properties
+│  -rw----     2.0 fat        0 bl defN 24-Apr-17 14:49 eu/maveniverse/maven/toolbox/shared/
+│  -rw----     2.0 fat     1406 bl defN 24-Apr-17 14:49 eu/maveniverse/maven/toolbox/shared/ArtifactMapper$1.class
+│  -rw----     2.0 fat      949 bl defN 24-Apr-17 14:49 eu/maveniverse/maven/toolbox/shared/ArtifactMapper$2.class
+│  -rw----     2.0 fat     2020 bl defN 24-Apr-17 14:49 eu/maveniverse/maven/toolbox/shared/ArtifactMapper$3.class
+│  -rw----     2.0 fat     1451 bl defN 24-Apr-17 14:49 eu/maveniverse/maven/toolbox/shared/ArtifactMapper$4.class
+│  -rw----     2.0 fat     2028 bl defN 24-Apr-17 14:49 eu/maveniverse/maven/toolbox/shared/ArtifactMapper$5.class
+│  -rw----     2.0 fat     1415 bl defN 24-Apr-17 14:49 eu/maveniverse/maven/toolbox/shared/ArtifactMapper$6.class
+│ @@ -3882,8 +3882,8 @@
+│  -rw----     2.0 fat      643 bl defN 24-Apr-08 13:51 META-INF/services/org/jline/terminal/provider/jansi
+│  -rw----     2.0 fat      639 bl defN 24-Apr-08 13:51 META-INF/services/org/jline/terminal/provider/jna
+│  -rw----     2.0 fat      639 bl defN 24-Apr-08 13:51 META-INF/services/org/jline/terminal/provider/ffm
+│  -rw----     2.0 fat      641 bl defN 24-Apr-08 13:51 META-INF/services/org/jline/terminal/provider/exec
+│  -rw----     2.0 fat      251 bl defN 24-Apr-08 13:51 META-INF/services/org.apache.commons.logging.LogFactory
+│  -rw----     2.0 fat       75 bl defN 24-Apr-08 13:51 META-INF/services/eu.maveniverse.maven.mima.context.Runtime
+│  -rw----     2.0 fat     6617 bl defN 24-Apr-08 13:51 META-INF/sisu/javax.inject.Named
+│ -3887 files, 13152788 bytes uncompressed, 5223936 bytes compressed:  60.3%
+│ +3887 files, 13152830 bytes uncompressed, 5223957 bytes compressed:  60.3%
+├── META-INF/maven/eu.maveniverse.maven.plugins/toolbox/pom.xml
+│ ├── META-INF/maven/eu.maveniverse.maven.plugins/toolbox/pom.xml
+│ │ @@ -203,14 +203,15 @@
+│ │              </configuration>
+│ │            </execution>
+│ │          </executions>
+│ │        </plugin>
+│ │        <plugin>
+│ │          <groupId>org.apache.maven.plugins</groupId>
+│ │          <artifactId>maven-shade-plugin</artifactId>
+│ │ +        <version>3.5.3-SNAPSHOT</version>
+│ │          <executions>
+│ │            <execution>
+│ │              <id>cli</id>
+│ │              <goals>
+│ │                <goal>shade</goal>
+│ │              </goals>
+│ │              <phase>package</phase>
+
