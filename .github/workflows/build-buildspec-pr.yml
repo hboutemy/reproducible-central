@@ -45,16 +45,20 @@ jobs:
 
               if [ $(grep "ko=0" PRcomment.txt | wc -l) -eq 0 ]
               then
+                echo "$ ./build_diffoscope.sh $buildcompare buildcache/$artifactId"
                 ./build_diffoscope.sh "$buildcompare" buildcache/$artifactId
                 diffoscope="$(dirname $file)/$(basename $buildinfo .buildinfo).diffoscope"
                 [ -f $diffoscope ] && mv "$diffoscope" . \
                   && echo "diffoscope uploaded to ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" >> PRcomment.txt
               fi
 
-              echo '```' >> PRcomment.txt
-              cat time.txt >> PRcomment.txt
-              echo '```' >> PRcomment.txt
-              rm -f time.txt
+              if [ -f time.txt ]
+              then
+                echo '```' >> PRcomment.txt
+                cat time.txt >> PRcomment.txt
+                echo '```' >> PRcomment.txt
+                rm -f time.txt
+              fi
             fi
           done
 
