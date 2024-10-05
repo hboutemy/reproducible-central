@@ -7,6 +7,9 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+env:
+  DOCKER_BUILDKIT: 1
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -54,6 +57,7 @@ jobs:
               echo '```' >> PRcomment.txt
               cat time.txt >> PRcomment.txt
               echo '```' >> PRcomment.txt
+              rm time.txt
             fi
           done
 
